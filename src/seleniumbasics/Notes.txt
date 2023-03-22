@@ -1,0 +1,31 @@
+Selenium Review Session:
+Automaton Suite
+=> Components of Selenium
+-Selenium IDE{Selenium 1}
+-Selenium RC {Selenium 2}
+-Selenium WebDriver{Selenium 3}--->Selenium[4.x]
+-Selenium Grid
+
+Open Source Tool:
+-Visualize
+-Customize
+-Contribute
+
+ Selenium is a Free License Tool: no payment required to use it
+Selenium is very popular because:
+Suppports multiple browsers: chrome,FireFox, Safari,Edge, IE,Opera
+Supports multiple Operating Systems: windows/Mac/Linux. except [Unix]
+Supports multiple programming Languages: JAVA/Ruby/python/C#/PHP/JS
+
+also Supports w3c protocal
+certified by w3c
+where w3c stands for World Wide Web consortium
+
+==============
+
+Limitations:
+1. Only use to Automate web applications.
+Any app that can opens in web browser can be automated
+but can not automate native apps like notepad
+2. we can not automate APIs using Selenium
+3. It is only an automation tool

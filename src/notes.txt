@@ -1,0 +1,25 @@
+Xpath:
+Absolute xpath copy pasted from facebook username. it is a full length of code copied from webpage
+which is verylong and so we don't use absolute xpath.
+Absolute Xpath[/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input]
+
+Relative xpath[custom Xpath]
+1.//tagName[@attributename='value']
+//input[@id='userid']
+//input[@id='userid' and @title='Email']
+//input[@id='userid' or @title='Email']
+
+2.//tagName[text()='InnerText']
+3.//tagName[contains(@attribute,'value']
+//input[contains(@id,'userid']
+
+4. //tagName[contains(text(),'innerText']
+//h3[contains(text(),'Useful links for learning')]
+
+//input[@*='userid'] if attribute is unknow you can use *after @.
+
+if you have to find out how many links starts with a word "Amazon" on Amazon website
+
+//a[starts-with(text(),'Amazon')]
+when there is imaage on the webpage.  may contain svg as tagName
+//*[local-name()='svg']//*[name()='path']
